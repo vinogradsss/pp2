@@ -1,3 +1,4 @@
+#exercises
 #22
 x = "Hello World"
 print(len(x))
