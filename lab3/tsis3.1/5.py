@@ -8,7 +8,7 @@ class Account():
 
     def withdraw(self, money):
         self.balance -= money
-        if(self.balance <= 0):
+        if(self.balance < 0):
             print("You dont have enough money")
         else:
             print(self.balance)

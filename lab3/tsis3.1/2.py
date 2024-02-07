@@ -1,24 +1,4 @@
 class Shape():
-    def __init__(self, length):
-        self.length = length
-    def area(self):
-        return 0
-
-class Square(Shape):
-    def area(self):
-        print(self.length ** 2)
-
-a = int(input())
-
-s = Shape(a)
-k = Square(a)
-s.area()
-k.area()
-
-
-
-
-class Shape():
     def area(self):
         return 0
 
